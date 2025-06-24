@@ -1,4 +1,3 @@
 fn main() {
-    numbers::print();
+    numbers::print(10);
 }
-
