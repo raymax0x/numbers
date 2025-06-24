@@ -1,5 +1,5 @@
 pub fn print(limit: u8) {
-    let numbers = generate_sequence(limit);
+    let numbers = generate_sequence1(limit);
     output_sequence(&numbers);
 }
 
@@ -10,6 +10,10 @@ fn generate_sequence(limit: u8) -> Vec<u8> {
         numbers.push(n);
     }
     numbers
+}
+
+fn generate_sequence1(limit: u8) -> Vec<u8> {
+    (1..=limit).collect()
 }
 
 fn output_sequence(numbers: &[u8]) {
