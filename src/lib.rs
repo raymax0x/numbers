@@ -12,6 +12,7 @@ fn generate_sequence(limit: u8) -> Vec<u8> {
     numbers
 }
 
+// you can replace the whole generate sequence function from this
 fn generate_sequence1(limit: u8) -> Vec<u8> {
     (1..=limit).collect()
 }
